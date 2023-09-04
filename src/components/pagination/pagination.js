@@ -53,19 +53,7 @@ const Pagination = ({
                 className="relative inline-flex items-center px-2 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
               >
                 <span className="sr-only">Previous</span>
-                <svg
-                  className="h-5 w-5"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M9.293 5.293a1 1 0 011.414 0L15 10l-4.293 4.293a1 1 0 01-1.414-1.414L12.586 10 9.293 6.707a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
+                Previous
               </button>
             )}
             {pageNumbers.map((number) => (
@@ -87,19 +75,7 @@ const Pagination = ({
                 className="relative inline-flex items-center px-2 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
               >
                 <span className="sr-only">Next</span>
-                <svg
-                  className="h-5 w-5"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10.293 14.293a1 1 0 01-1.414 0L5 10l4.293 4.293a1 1 0 11-1.414 1.414L7.414 10l2.293-2.293a1 1 0 011.414 0a1 1 0 010 1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
+                Next
               </button>
             )}
           </nav>
